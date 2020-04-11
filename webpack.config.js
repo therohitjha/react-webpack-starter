@@ -7,7 +7,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.\(js|jsx)$/,
+        test: /\.(js|jsx)$/,
         loader: "babel-loader",
         options: { presets: ["@babel/env"] },
       },
