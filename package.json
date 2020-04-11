@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://therohitjha.github.io/react-webpack-starter",
   "scripts": {
     "start":"npx webpack-dev-server --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy":"npx webpack --mode development",
-    "deploy":"gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
